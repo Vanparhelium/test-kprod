@@ -1,0 +1,240 @@
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+/*--------------------*/
+@font-face {
+  font-family: 'StolzlRegular';
+  src: url('../fonts/StolzlRegular.eot');
+  src: url('../fonts/StolzlRegular.eot') format('embedded-opentype'), url('../fonts/StolzlRegular.woff2') format('woff2'), url('../fonts/StolzlRegular.woff') format('woff'), url('../fonts/StolzlRegular.ttf') format('truetype'), url('../fonts/StolzlRegular.svg#StolzlRegular') format('svg');
+}
+@font-face {
+  font-family: 'Stolzl-Light';
+  src: url('../fonts/Stolzl-Light.eot');
+  src: url('../fonts/Stolzl-Light.eot') format('embedded-opentype'), url('../fonts/Stolzl-Light.woff') format('woff'), url('../fonts/Stolzl-Light.ttf') format('truetype'), url('../fonts/Stolzl-Light.svg#Stolzl-Light') format('svg');
+}
+@font-face {
+  font-family: 'GothamPro';
+  src: url('../fonts/GothamPro.eot');
+  src: url('../fonts/GothamPro.eot') format('embedded-opentype'), url('../fonts/GothamPro.woff2') format('woff2'), url('../fonts/GothamPro.woff') format('woff'), url('../fonts/GothamPro.ttf') format('truetype'), url('../fonts/GothamPro.svg#GothamPro') format('svg');
+}
+body {
+  background-color: #4C1DD2;
+  font-family: 'StolzlRegular', sans-serif;
+  color: #fff;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.header {
+  margin: 0 auto;
+  /* width: 1200px; */
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.logo {
+  position: absolute;
+  margin-left: -61px;
+  margin-top: 10px;
+}
+.menu {
+  /* justify-content: start; */
+  /* margin-right: 100px; */
+}
+.menu a {
+  margin: 10px 20px 10px 15px;
+  font-family: 'StolzlRegular', sans-serif;
+  color: #fff;
+  font-size: 16px;
+  display: inline-block;
+}
+.telephone {
+  display: inline-flex;
+  align-items: center;
+  /* flex-grow: 1; */
+  /* justify-content: end; */
+}
+.telephone__namber {
+  font-family: 'Stolzl-Light', sans-serif;
+  font-weight: 100;
+  font-size: 18px;
+  color: white;
+}
+.telephone__ws {
+  margin-left: 43px;
+  background-color: #4F15F3;
+  border-radius: 9px;
+  width: 177px;
+  height: 48px;
+  font-family: 'GothamPro', sans-serif;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+  display: inline;
+  /* align-items: center; */
+}
+.telephone__ws p {
+  display: inline;
+  margin: 16px;
+}
+.telephone__ws img {
+  margin-left: 25px;
+}
+.content {
+  margin: 0 auto;
+  /* padding: 0 15px;     */
+  padding-left: 15px;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.title {
+  margin-bottom: 50px;
+}
+.title h1 {
+  max-width: 640px;
+  margin-top: 240px;
+  font-size: 48px;
+  line-height: 150%;
+}
+.title span,
+.title p {
+  font-family: 'Stolzl-Light', sans-serif;
+  font-weight: 100;
+}
+.title p {
+  font-size: 24px;
+  line-height: 150%;
+  margin-top: 23px;
+}
+.feedback {
+  position: absolute;
+}
+.feedback input {
+  margin-top: 48px;
+  margin-right: 21px;
+  height: 56px;
+  width: 284px;
+  border-radius: 12px;
+  padding: 19px 15px;
+}
+.feedback input::placeholder {
+  color: #BCBCBC;
+  font-size: 18px;
+}
+.feedback button {
+  margin-top: 20px;
+  width: 335px;
+  height: 56px;
+  background: #F86161;
+  border-radius: 12px;
+  font-size: 18px;
+  color: white;
+}
+img {
+  vertical-align: sub;
+}
+.baner {
+  display: flex;
+  position: relative;
+  width: 527px;
+  height: 680px;
+  /* background-color: #fff; */
+  margin-top: 64px;
+  margin-left: 15px;
+}
+.girl {
+  z-index: 1;
+  margin-left: 15px;
+  width: 527px;
+  height: 680px;
+  /* margin-top: 64px;
+    margin-left: 173px; */
+}
+.square {
+  position: absolute;
+  width: 445px;
+  height: 598px;
+  background: #F86161;
+  border-radius: 59px;
+  /* margin-top: 146px; */
+  right: 0;
+  bottom: 0;
+}
