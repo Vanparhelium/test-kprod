@@ -472,12 +472,18 @@ th {
     left: 80%;
     top: 10%;
   }
+  .content {
+    max-width: 990px;
+  }
 }
 @media (max-width: 990px) and (min-width: 768px) {
   .logo {
     position: absolute;
     left: 80%;
     top: 10%;
+  }
+  .content {
+    max-width: 767px;
   }
 }
 @media (max-width: 767px) {
@@ -495,10 +501,12 @@ th {
     left: 90%;
     top: 5%;
   }
+  .content {
+    max-width: 766px;
+  }
 }
-/* @media (max-width: 375px) {
-    .baner__sales {
-    margin-left: 40%;
+@media (max-width: 375px) {
+  .content {
+    max-width: 766px;
+  }
 }
-
-} */
