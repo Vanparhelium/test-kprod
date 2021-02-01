@@ -345,8 +345,8 @@ img {
 .girl {
   z-index: 1;
   margin-left: 15px;
-  width: 527px;
-  height: 680px;
+  /* width: 527px; */
+  /* height: 680px; */
 }
 .triangle {
   position: absolute;
@@ -507,6 +507,45 @@ th {
 }
 @media (max-width: 375px) {
   .content {
-    max-width: 766px;
+    max-width: 375px;
+  }
+  .baner {
+    display: flex;
+    position: relative;
+    width: 450px;
+    height: 680px;
+    margin-top: 0px;
+  }
+  .dot {
+    position: absolute;
+    margin-left: 270px;
+  }
+  .baner__profit {
+    margin-left: 55px;
+    margin-top: 550px;
+  }
+  .triangle {
+    margin-left: -15px;
+    z-index: 1;
+  }
+  .girl {
+    margin-left: -15px;
+    width: 350px;
+  }
+  .square {
+    position: absolute;
+    width: 350px;
+    height: 598px;
+  }
+  .baner__clients {
+    margin-top: 0px;
+    margin-left: -15px;
+    width: 150px;
+    height: 186px;
+  }
+  .baner__sales {
+    width: 188px;
+    margin-left: 190px;
+    margin-top: 300px;
   }
 }
